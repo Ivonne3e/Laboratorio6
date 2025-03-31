@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libros - Novedades</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .section-header {
+            margin-top: 30px;
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .intro-text {
+            margin-top: 20px;
+            margin-bottom: 40px;
+            font-size: 20px;
+            text-align: center;
+        }
+        .book-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .book-cover {
+            width: 100px;
+            height: auto;
+            margin-right: 20px;
+        }
+        .book-details {
+            flex-grow: 1;
+        }
+        .book-title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .book-meta {
+            color: #555;
+            font-size: 14px;
+        }
+        .btn-discover {
+            background-color: #007bff;
+            color: white;
+        }
+        .carousel-inner img {
+        max-height: 400px;
+        width: auto; 
+        object-fit: contain;
+        margin: auto;
+        background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Libros</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pagina1.html">Recomendaciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pagina2.html">Reseñas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="pagina3.html">Novedades</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1 class="section-header">Los 3 más populares del mes</h1>
+        <div id="carouselExample" class="carousel slide mt-3" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imagen5.jpg" class="d-block w-100" alt="Primer libro destacado">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagen6.jpg" class="d-block w-100" alt="Segundo libro destacado">
+                </div>
+                <div class="carousel-item">
+                    <img src="imagen7.webp" class="d-block w-100" alt="Tercer libro destacado">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+
+        <h2 class="intro-text">Descubre todas las demás novedades literarias que tenemos para ti</h2>
+
+        <div class="book-item">
+            <img src="sombra.jpg" alt="Portada de Sombra y Hueso" class="book-cover">
+            <div class="book-details">
+                <div class="book-title">Sombra y Hueso</div>
+                <div class="book-meta">Autor: Leigh Bardugo | Publicado en 2012</div>
+                <button class="btn btn-discover">Descubrir</button>
+            </div>
+        </div>
+        <div class="book-item">
+            <img src="viento.jpg" alt="Portada de El Nombre del Viento" class="book-cover">
+            <div class="book-details">
+                <div class="book-title">El Nombre del Viento</div>
+                <div class="book-meta">Autor: Patrick Rothfuss | Publicado en 2007</div>
+                <button class="btn btn-discover">Descubrir</button>
+            </div>
+        </div>
+        <div class="book-item">
+            <img src="juegos.jpg" alt="Portada de Los Juegos del Hambre" class="book-cover">
+            <div class="book-details">
+                <div class="book-title">Los Juegos del Hambre</div>
+                <div class="book-meta">Autor: Suzanne Collins | Publicado en 2008</div>
+                <button class="btn btn-discover">Descubrir</button>
+            </div>
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

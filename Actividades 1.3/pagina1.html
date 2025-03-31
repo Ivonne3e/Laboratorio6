@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendaciones de Libros</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .book-item {
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+            padding: 15px 0;
+        }
+        .book-cover {
+            width: 80px;
+            height: 120px;
+            margin-right: 20px;
+        }
+        .book-details {
+            flex-grow: 1;
+        }
+        .book-title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .book-author {
+            color: #555;
+        }
+        .book-meta {
+            color: #777;
+            font-size: 14px;
+        }
+        .btn-read {
+            background-color: #28a745;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Libros</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="pagina1.html">Recomendaciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pagina2.html">Reseñas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pagina3.html">Novedades</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <h1 class="mb-4">Recomendaciones de Libros</h1>
+        <div class="book-item">
+            <img src="principito.webp" alt="Portada del libro 1" class="book-cover">
+            <div class="book-details">
+                <div class="book-title">El principito</div>
+                <div class="book-author">por Antoine de Saint-Exupéry</div>
+                <div class="book-meta">Promedio: 4.5 ★ | 2M Reseñas</div>
+            </div>
+            <button class="btn btn-read">Quiero leer</button>
+        </div>
+        <div class="book-item">
+            <img src="cienaños.jpg" alt="Portada del libro 2" class="book-cover">
+            <div class="book-details">
+                <div class="book-title">Cien años de soledad</div>
+                <div class="book-author">por Gabriel García Márquez</div>
+                <div class="book-meta">Promedio: 4.6 ★ | 3.5M Reseñas</div>
+            </div>
+            <button class="btn btn-read">Quiero leer</button>
+        </div>
+        <div class="book-item">
+            <img src="1984.jpg" alt="Portada del libro 3" class="book-cover">
+            <div class="book-details">
+                <div class="book-title">1984</div>
+                <div class="book-author">por George Orwell</div>
+                <div class="book-meta">Promedio: 4.4 ★ | 4.2M Reseñas</div>
+            </div>
+            <button class="btn btn-read">Quiero leer</button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

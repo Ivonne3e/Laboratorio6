@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reseñas de El Principito</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .book-section {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+        }
+        .book-cover {
+            width: 120px;
+            height: auto;
+            margin-right: 20px;
+        }
+        .review-item {
+            border-bottom: 1px solid #ddd;
+            padding: 15px 0;
+        }
+        .review-meta {
+            font-size: 14px;
+            color: #555;
+        }
+        .btn-read {
+            background-color: #28a745;
+            color: white;
+            margin-top: 20px;
+        }
+        .extra-images {
+            margin-top: 40px;
+            text-align: center;
+        }
+        .extra-images img {
+            width: 250px;
+            height: auto;
+            margin: 10px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Libros</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pagina1.html">Recomendaciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="pagina2.html">Reseñas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pagina3.html">Novedades</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+
+        <div class="book-section">
+            <img src="principito.webp" alt="Portada de El Principito" class="book-cover">
+            <div>
+                <h1>Reseñas de "El Principito"</h1>
+                <p>Autor: Antoine de Saint-Exupéry</p>
+                <p>Publicado en: 1943</p>
+                <button class="btn btn-read">Quiero leer</button>
+            </div>
+        </div>
+
+
+        <div class="review-item">
+            <h4>Una obra mágica que conecta generaciones</h4>
+            <p>"Me encantó la profundidad de los mensajes que transmite este libro. Es un clásico que invita a reflexionar sobre la amistad, el amor y lo esencial en la vida."</p>
+            <div class="review-meta">Reseña por: María López | Calificación: 5 ★</div>
+        </div>
+        <div class="review-item">
+            <h4>Una experiencia literaria inolvidable</h4>
+            <p>"Un libro sencillo pero cargado de simbolismo. Cada lectura me deja pensando en nuevas cosas. Lo recomiendo a todos, sin importar la edad."</p>
+            <div class="review-meta">Reseña por: Luis Fernández | Calificación: 4 ★</div>
+        </div>
+        <div class="review-item">
+            <h4>Lo esencial es invisible a los ojos</h4>
+            <p>"El Principito siempre será uno de mis favoritos. Es una lectura que toca el alma y deja una huella que permanece. Perfecto para aquellos que buscan algo más allá de lo superficial."</p>
+            <div class="review-meta">Reseña por: Carolina Díaz | Calificación: 5 ★</div>
+        </div>
+
+ 
+        <div class="extra-images">
+            <h2 class="section-header">Momentos destacados de El Principito</h2>
+            <div class="row">
+   
+                <div class="col-md-6 text-center">
+                    <img src="destacado2.jpg" alt="El Principito con la rosa" class="img-fluid mb-3 rounded">
+                    <p><strong>El Principito y su rosa:</strong> Un momento esencial que representa el amor y el cuidado por aquello que valoramos profundamente en nuestras vidas.</p>
+                </div>
+        
+
+                <div class="col-md-6 text-center">
+                    <img src="destacado1.jpg" alt="El Principito y el aviador" class="img-fluid mb-3 rounded">
+                    <p><strong>El Principito y el aviador:</strong> La conexión entre el aviador y el Principito simboliza la amistad y la importancia de las relaciones humanas auténticas.</p>
+                </div>
+            </div>
+        </div>
+        
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
